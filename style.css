@@ -1,0 +1,23 @@
+.card_image.loading {
+    height: 360px;
+    width: 100%;
+    background-color: #e2e2e2;
+}
+.card:hover {
+    transition: all 2s ease;
+}
+.card{
+    height: 100%;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.05), 0 -2px 1px -2px rgba(0, 0, 0, 0.04), 0 0 0 -1px rgba(0, 0, 0, 0.05)
+}
+.card-body{
+    display: flex; 
+    height: 100%;
+    flex-direction: column;
+}
+.row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.top-gap{
+    padding-top: 11vmin;
+}
