@@ -116,11 +116,11 @@ $(document).ready(function(){
                         
                     }
 
-                    
+                    if(result != ''){
                         $('.news_row').html(result);
-                   
-                        // $('.news_row').html("News Not Found");
-                    
+                    }else{
+                        $('.news_row').html('<div class="h1 text-center">OOPS</div><div class="h3 text-center">News Not Found</div>');
+                    }
                 },
                 error: function(){
                     console.log("Error");
