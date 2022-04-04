@@ -119,7 +119,7 @@ $(document).ready(function(){
                     if(result != ''){
                         $('.news_row').html(result);
                     }else{
-                        $('.news_row').html('<div class="h1 text-center">OOPS</div><div class="h3 text-center">News Not Found</div>');
+                        $('.news_row').html('<div class="h1 text-center">MAAF</div><div class="h3 text-center">Berita Tidak Ditemukan</div>');
                     }
                 },
                 error: function(){
